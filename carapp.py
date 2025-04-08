@@ -65,4 +65,4 @@ prediction = model.predict([input_encoded])[0]
 decoded_label = pd.Series(df[df.columns[-1]].unique())[prediction]
 st.success(f"✅ Predicted Condition: {decoded_label}")
 
-st.markdown("❤ *Made enthusiastically by Kanchan *")
+st.markdown("❤ *Made with love by Kanchan *")
